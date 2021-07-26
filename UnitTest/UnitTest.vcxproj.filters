@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="VertexDemo.cpp">
+      <Filter>Vertex</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldDemo.cpp">
+      <Filter>Vertex</Filter>
+    </ClCompile>
+    <ClCompile Include="RectDemo.cpp">
+      <Filter>Vertex</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexDemo.cpp">
+      <Filter>Vertex</Filter>
+    </ClCompile>
+    <ClCompile Include="GridDemo.cpp">
+      <Filter>Vertex</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainDemo.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshDemo.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureDemo.cpp">
+      <Filter>Vertex</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainTextureDemo.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="GetHeightDemo.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="VerticalPickDemo.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="RaycastDemo.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectDemo.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeSkyDemo.cpp">
+      <Filter>Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainBrushDemo.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainLineDemo.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainSplattingDemo.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderDemo.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="BillboardDemo.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="WeatherDemo.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="InstancingDemo.cpp">
+      <Filter>Instancing</Filter>
+    </ClCompile>
+    <ClCompile Include="InstanceFrameworkDemo.cpp">
+      <Filter>Instancing</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadDemo.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputeDemo.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="InstancingColliderDemo.cpp">
+      <Filter>Instancing</Filter>
+    </ClCompile>
+    <ClCompile Include="LightingDemo.cpp">
+      <Filter>Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalMapDemo.cpp">
+      <Filter>Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLightDemo.cpp">
+      <Filter>Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="SpotLightDemo.cpp">
+      <Filter>Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="RtvDemo.cpp">
+      <Filter>Rtv</Filter>
+    </ClCompile>
+    <ClCompile Include="MrtDemo.cpp">
+      <Filter>Rtv</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewportDemo.cpp">
+      <Filter>Rtv</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectorDemo.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowDemo.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CullingDemo.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeMapDemo.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="ReflectionDemo.cpp">
+      <Filter>Water</Filter>
+    </ClCompile>
+    <ClCompile Include="RefractionDemo.cpp">
+      <Filter>Water</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterDemo.cpp">
+      <Filter>Water</Filter>
+    </ClCompile>
+    <ClCompile Include="FogDemo.cpp">
+      <Filter>Water</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyDemo.cpp">
+      <Filter>Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="TessTriangleDemo.cpp">
+      <Filter>Tessellation</Filter>
+    </ClCompile>
+    <ClCompile Include="TessRectDemo.cpp">
+      <Filter>Tessellation</Filter>
+    </ClCompile>
+    <ClCompile Include="TessDistanceRectDemo.cpp">
+      <Filter>Tessellation</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainLodDemo.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleDemo.cpp">
+      <Filter>Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="GBufferDemo.cpp">
+      <Filter>Deffered</Filter>
+    </ClCompile>
+    <ClCompile Include="DPointLightDemo.cpp">
+      <Filter>Deffered</Filter>
+    </ClCompile>
+    <ClCompile Include="DSpotLightDemo.cpp">
+      <Filter>Deffered</Filter>
+    </ClCompile>
+    <ClCompile Include="HW.cpp">
+      <Filter>GHW</Filter>
+    </ClCompile>
+    <ClCompile Include="TheWorldLOD.cpp">
+      <Filter>GHW</Filter>
+    </ClCompile>
+    <ClCompile Include="Zombie.cpp">
+      <Filter>GHW</Filter>
+    </ClCompile>
+    <ClCompile Include="BowMaster.cpp">
+      <Filter>GHW</Filter>
+    </ClCompile>
+    <ClCompile Include="Hero.cpp">
+      <Filter>GHW</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="VertexDemo.h">
+      <Filter>Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldDemo.h">
+      <Filter>Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="RectDemo.h">
+      <Filter>Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexDemo.h">
+      <Filter>Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="GridDemo.h">
+      <Filter>Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainDemo.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshDemo.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureDemo.h">
+      <Filter>Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainTextureDemo.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="GetHeightDemo.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="VerticalPickDemo.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="RaycastDemo.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectDemo.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeSkyDemo.h">
+      <Filter>Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainBrushDemo.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainLineDemo.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainSplattingDemo.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderDemo.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="BillboardDemo.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="WeatherDemo.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="InstancingDemo.h">
+      <Filter>Instancing</Filter>
+    </ClInclude>
+    <ClInclude Include="InstanceFrameworkDemo.h">
+      <Filter>Instancing</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadDemo.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputeDemo.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="InstancingColliderDemo.h">
+      <Filter>Instancing</Filter>
+    </ClInclude>
+    <ClInclude Include="LightingDemo.h">
+      <Filter>Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalMapDemo.h">
+      <Filter>Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLightDemo.h">
+      <Filter>Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="SpotLightDemo.h">
+      <Filter>Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="RtvDemo.h">
+      <Filter>Rtv</Filter>
+    </ClInclude>
+    <ClInclude Include="MrtDemo.h">
+      <Filter>Rtv</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewportDemo.h">
+      <Filter>Rtv</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectorDemo.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowDemo.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CullingDemo.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeMapDemo.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectionDemo.h">
+      <Filter>Water</Filter>
+    </ClInclude>
+    <ClInclude Include="RefractionDemo.h">
+      <Filter>Water</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterDemo.h">
+      <Filter>Water</Filter>
+    </ClInclude>
+    <ClInclude Include="FogDemo.h">
+      <Filter>Water</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyDemo.h">
+      <Filter>Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="TessTriangleDemo.h">
+      <Filter>Tessellation</Filter>
+    </ClInclude>
+    <ClInclude Include="TessRectDemo.h">
+      <Filter>Tessellation</Filter>
+    </ClInclude>
+    <ClInclude Include="TessDistanceRectDemo.h">
+      <Filter>Tessellation</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainLodDemo.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleDemo.h">
+      <Filter>Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="GBufferDemo.h">
+      <Filter>Deffered</Filter>
+    </ClInclude>
+    <ClInclude Include="DPointLightDemo.h">
+      <Filter>Deffered</Filter>
+    </ClInclude>
+    <ClInclude Include="DSpotLightDemo.h">
+      <Filter>Deffered</Filter>
+    </ClInclude>
+    <ClInclude Include="HW.h">
+      <Filter>GHW</Filter>
+    </ClInclude>
+    <ClInclude Include="TheWorldLOD.h">
+      <Filter>GHW</Filter>
+    </ClInclude>
+    <ClInclude Include="Zombie.h">
+      <Filter>GHW</Filter>
+    </ClInclude>
+    <ClInclude Include="BowMaster.h">
+      <Filter>GHW</Filter>
+    </ClInclude>
+    <ClInclude Include="Hero.h">
+      <Filter>GHW</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Vertex">
+      <UniqueIdentifier>{ec918b2e-e6c1-4eda-99cb-39ef922a3142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain">
+      <UniqueIdentifier>{69c70366-ae2d-4b2f-bf44-9c9707f492ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mesh">
+      <UniqueIdentifier>{7f147a92-857d-4180-b1b3-859e5c582ac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sky">
+      <UniqueIdentifier>{84ab5ab0-c925-4cf2-8ca2-289f5820a34a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{19709d67-7ab6-4060-8c8a-8b2650ac3530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Instancing">
+      <UniqueIdentifier>{1121eaa5-6196-40c8-b677-042018b71df9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{5ad74bd3-a85a-477d-abca-4f286f7fac7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lighting">
+      <UniqueIdentifier>{3bb067a9-25bb-43b1-b1ee-13fb1bf9024b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rtv">
+      <UniqueIdentifier>{b8a378ee-7d79-4045-8d6b-afd4aa2d34d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Water">
+      <UniqueIdentifier>{fae4708b-0df7-4913-9900-e59db481d14c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tessellation">
+      <UniqueIdentifier>{36340936-6a66-458a-a4d4-1b9ee2c0cebc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particle">
+      <UniqueIdentifier>{1dfe4cc0-406c-432f-91fd-2c11fbcc9ad5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Deffered">
+      <UniqueIdentifier>{6fc41373-a6a3-4422-aa1d-d61b8ec6556a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostEffects">
+      <UniqueIdentifier>{6760bb81-aca2-469f-8331-9ce981909148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GHW">
+      <UniqueIdentifier>{beb99313-f34b-4df5-8b74-28b07025a146}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,99 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Framework", "Framework\Framework.vcxproj", "{CA334AE9-B7B1-4114-BC95-7C169F0A01CB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTest", "UnitTest\UnitTest.vcxproj", "{B0DC2DAD-5725-4964-8C58-C925FFB48F65}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CA334AE9-B7B1-4114-BC95-7C169F0A01CB} = {CA334AE9-B7B1-4114-BC95-7C169F0A01CB}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Shaders", "_Shaders", "{8D8A812B-0E0B-46E2-89E0-119AB319A279}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ModelConv", "ModelConv\ModelConv.vcxproj", "{3037281B-E547-4D3B-9D7A-F1CEF8EFD4C1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CA334AE9-B7B1-4114-BC95-7C169F0A01CB} = {CA334AE9-B7B1-4114-BC95-7C169F0A01CB}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00", "00", "{95D2F34E-C995-452A-8E34-81282F35BEC0}"
+	ProjectSection(SolutionItems) = preProject
+		..\_Shaders\00_Deffered.fx = ..\_Shaders\00_Deffered.fx
+		..\_Shaders\00_Global.fx = ..\_Shaders\00_Global.fx
+		..\_Shaders\00_Light.fx = ..\_Shaders\00_Light.fx
+		..\_Shaders\00_Render.fx = ..\_Shaders\00_Render.fx
+		..\_Shaders\00_Sky.fx = ..\_Shaders\00_Sky.fx
+		..\_Shaders\00_Terrain.fx = ..\_Shaders\00_Terrain.fx
+		..\_Shaders\00_Water.fx = ..\_Shaders\00_Water.fx
+		..\_Shaders\16_CubeSky.fx = ..\_Shaders\16_CubeSky.fx
+		..\_Shaders\24_Billboard.fx = ..\_Shaders\24_Billboard.fx
+		..\_Shaders\25_Rain.fx = ..\_Shaders\25_Rain.fx
+		..\_Shaders\25_Snow.fx = ..\_Shaders\25_Snow.fx
+		..\_Shaders\26_Billboard.fx = ..\_Shaders\26_Billboard.fx
+		..\_Shaders\27_Instancing.fx = ..\_Shaders\27_Instancing.fx
+		..\_Shaders\29_ByteAddress.fx = ..\_Shaders\29_ByteAddress.fx
+		..\_Shaders\29_Intersection.fx = ..\_Shaders\29_Intersection.fx
+		..\_Shaders\29_Render2D.fx = ..\_Shaders\29_Render2D.fx
+		..\_Shaders\29_Texture.fx = ..\_Shaders\29_Texture.fx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "40-", "40-", "{A96A9DE3-7127-4522-ADD1-19F1DB28F82B}"
+	ProjectSection(SolutionItems) = preProject
+		..\_Shaders\050_TheWorldLOD2.fx = ..\_Shaders\050_TheWorldLOD2.fx
+		..\_Shaders\39_CpuCulling.fx = ..\_Shaders\39_CpuCulling.fx
+		..\_Shaders\39_GpuCulling.fx = ..\_Shaders\39_GpuCulling.fx
+		..\_Shaders\40_CubeMap.fx = ..\_Shaders\40_CubeMap.fx
+		..\_Shaders\41_Reflection.fx = ..\_Shaders\41_Reflection.fx
+		..\_Shaders\42_Refraction.fx = ..\_Shaders\42_Refraction.fx
+		..\_Shaders\43_Water.fx = ..\_Shaders\43_Water.fx
+		..\_Shaders\45_Scattering.fx = ..\_Shaders\45_Scattering.fx
+		..\_Shaders\46_DistanceRect.fx = ..\_Shaders\46_DistanceRect.fx
+		..\_Shaders\46_Rect.fx = ..\_Shaders\46_Rect.fx
+		..\_Shaders\46_Triangle.fx = ..\_Shaders\46_Triangle.fx
+		..\_Shaders\47_TerrainLod.fx = ..\_Shaders\47_TerrainLod.fx
+		..\_Shaders\48_Particle.fx = ..\_Shaders\48_Particle.fx
+		..\_Shaders\49_Deffered.fx = ..\_Shaders\49_Deffered.fx
+		..\_Shaders\50_PointLight.fx = ..\_Shaders\50_PointLight.fx
+		..\_Shaders\51_SpotLight.fx = ..\_Shaders\51_SpotLight.fx
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ParticleEditor", "ParticleEditor\ParticleEditor.vcxproj", "{54D68FDB-44BB-40D9-ACFC-0474849C0C89}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CA334AE9-B7B1-4114-BC95-7C169F0A01CB} = {CA334AE9-B7B1-4114-BC95-7C169F0A01CB}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA334AE9-B7B1-4114-BC95-7C169F0A01CB}.Debug|x86.ActiveCfg = Debug|Win32
+		{CA334AE9-B7B1-4114-BC95-7C169F0A01CB}.Debug|x86.Build.0 = Debug|Win32
+		{CA334AE9-B7B1-4114-BC95-7C169F0A01CB}.Release|x86.ActiveCfg = Release|Win32
+		{CA334AE9-B7B1-4114-BC95-7C169F0A01CB}.Release|x86.Build.0 = Release|Win32
+		{B0DC2DAD-5725-4964-8C58-C925FFB48F65}.Debug|x86.ActiveCfg = Debug|Win32
+		{B0DC2DAD-5725-4964-8C58-C925FFB48F65}.Debug|x86.Build.0 = Debug|Win32
+		{B0DC2DAD-5725-4964-8C58-C925FFB48F65}.Release|x86.ActiveCfg = Release|Win32
+		{B0DC2DAD-5725-4964-8C58-C925FFB48F65}.Release|x86.Build.0 = Release|Win32
+		{3037281B-E547-4D3B-9D7A-F1CEF8EFD4C1}.Debug|x86.ActiveCfg = Debug|Win32
+		{3037281B-E547-4D3B-9D7A-F1CEF8EFD4C1}.Debug|x86.Build.0 = Debug|Win32
+		{3037281B-E547-4D3B-9D7A-F1CEF8EFD4C1}.Release|x86.ActiveCfg = Release|Win32
+		{3037281B-E547-4D3B-9D7A-F1CEF8EFD4C1}.Release|x86.Build.0 = Release|Win32
+		{54D68FDB-44BB-40D9-ACFC-0474849C0C89}.Debug|x86.ActiveCfg = Debug|Win32
+		{54D68FDB-44BB-40D9-ACFC-0474849C0C89}.Debug|x86.Build.0 = Debug|Win32
+		{54D68FDB-44BB-40D9-ACFC-0474849C0C89}.Release|x86.ActiveCfg = Release|Win32
+		{54D68FDB-44BB-40D9-ACFC-0474849C0C89}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{95D2F34E-C995-452A-8E34-81282F35BEC0} = {8D8A812B-0E0B-46E2-89E0-119AB319A279}
+		{A96A9DE3-7127-4522-ADD1-19F1DB28F82B} = {8D8A812B-0E0B-46E2-89E0-119AB319A279}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C4FFBD5-C7B4-434A-92BD-96B5BA0D3F69}
+	EndGlobalSection
+EndGlobal
